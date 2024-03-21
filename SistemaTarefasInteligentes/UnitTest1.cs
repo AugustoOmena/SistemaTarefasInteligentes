@@ -1,3 +1,5 @@
+using Domain;
+
 namespace SistemaTarefasInteligentes
 {
     public class UnitTest1
@@ -11,7 +13,13 @@ namespace SistemaTarefasInteligentes
             var prioridade = 1;
             var etiquetas = new List<string>() { "Teste1", "Teste2"};
 
-            //var tarefa = new Tarefa();
+            var tarefa = new Tarefa(titulo, descricao, dataVencimento, prioridade, etiquetas);
+
+            Assert.Equal(tarefa.Titulo, titulo);
+            Assert.Equal(tarefa.Descricao, descricao);
+            Assert.Equal(tarefa.DataVencimento, dataVencimento);
+
+
         }
     }
 }
