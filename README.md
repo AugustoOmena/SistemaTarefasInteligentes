@@ -1,6 +1,11 @@
 
 ## Criando sistema de tarefas inteligêntes com .Net 8 e TDD.
+
+#### Sistema de Gerenciamento de Tarefas Inteligente:
+***Cadastro de Tarefas:*** Os usuários podem criar tarefas manualmente ou importá-las de outras fontes, como e-mails ou aplicativos de calendário. Cada tarefa pode incluir detalhes como título, descrição, data de vencimento, prioridade e etiquetas.
+
 #### Referência (Programador Felipe Brito): https://youtu.be/NxTgE4rx9uk?si=wFFS_V842EVA9iOV
+
 #### Motivo: Felipe tem uma boa didática, e o conteúdo está atualizado.
 #### Objetivo: Praticar TDD com XUnit em .Net 8.
 
