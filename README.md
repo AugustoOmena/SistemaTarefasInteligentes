@@ -22,3 +22,5 @@
 #### 4 Pare e volte ao primeiro passo:
 <img style="width: 300px" src="https://github.com/AugustoOmena/SistemaTarefasInteligentes/assets/122471298/a3ea4522-f569-4a56-9c88-a7515f81af58"/>
 
+
+![image](https://github.com/AugustoOmena/SistemaTarefasInteligentes/assets/122471298/ef23aa0b-9f2a-44d9-97a3-91f477eeb723)
