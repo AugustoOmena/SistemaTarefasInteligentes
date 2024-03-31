@@ -1,8 +1,8 @@
-using Domain;
+using Domain.Entidades;
 
 namespace SistemaTarefasInteligentes
 {
-    public class UnitTest1
+    public class TarefasTests
     {
         [Fact]
         public void CriarTarefasComSucesso()
@@ -15,7 +15,7 @@ namespace SistemaTarefasInteligentes
 
             var tarefa = new Tarefa(titulo, descricao, dataVencimento, prioridade, etiquetas);
 
-            Assert.Equal(tarefa.Titulo, titulo);
+            Assert.Equal(titulo, tarefa.Titulo);
             Assert.Equal(tarefa.Descricao, descricao);
             Assert.Equal(tarefa.DataVencimento, dataVencimento);
 
